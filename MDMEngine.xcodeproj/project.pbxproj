@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53D2CBE51B05936A00C2AE86 /* MDMStatisticsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D2CBE41B05936A00C2AE86 /* MDMStatisticsPlugin.m */; };
+		608096DB1BA7F45300AC2936 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 608096DA1BA7F45300AC2936 /* SRWebSocket.m */; };
+		6083060E1BA6B037000F3CA7 /* httpReqOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6083060D1BA6B037000F3CA7 /* httpReqOperation.m */; };
+		608306111BA6B1E6000F3CA7 /* httpReqObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 608306101BA6B1E6000F3CA7 /* httpReqObject.m */; };
+		608306141BA6B4CA000F3CA7 /* httpReqQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 608306131BA6B4CA000F3CA7 /* httpReqQueue.m */; };
+		608306171BA6B86C000F3CA7 /* httpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 608306161BA6B86C000F3CA7 /* httpRequest.m */; };
+		C408CB961A2845910012C7EF /* MDMWebViewJsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C408CB951A2845910012C7EF /* MDMWebViewJsBridge.m */; };
+		C408CBA41A2847200012C7EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C408CBA01A2846850012C7EF /* Foundation.framework */; };
+		C408CBA51A2847200012C7EF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C408CB9E1A2846750012C7EF /* OpenGLES.framework */; };
+		C408CBA61A2847200012C7EF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C408CB9C1A28466C0012C7EF /* CoreFoundation.framework */; };
+		C408CBA71A2847200012C7EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C408CB9A1A2846640012C7EF /* QuartzCore.framework */; };
+		C408CBA81A2847200012C7EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C408CB981A2846580012C7EF /* UIKit.framework */; };
+		C44E86091A284CB3009EC5EA /* MDMPluginManage.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E86081A284CB3009EC5EA /* MDMPluginManage.m */; };
+		C44E860A1A284CF7009EC5EA /* MDMPlugin.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C46A31E91A2849D800B6493E /* MDMPlugin.h */; };
+		C44E860E1A284DEE009EC5EA /* MDMComdQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E860D1A284DEE009EC5EA /* MDMComdQueue.m */; };
+		C452384D1A42B62D00C66F9B /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C452384C1A42B62D00C66F9B /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C45238501A42D2D300C66F9B /* ModalAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = C452384F1A42D2D300C66F9B /* ModalAlert.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C46A31E41A2847EC00B6493E /* MDMWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A31E31A2847EC00B6493E /* MDMWebView.m */; };
+		C46A31E71A28489A00B6493E /* MDMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A31E61A28489A00B6493E /* MDMViewController.m */; };
+		C46A31EB1A2849D800B6493E /* MDMPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A31EA1A2849D800B6493E /* MDMPlugin.m */; };
+		C46A31EE1A284A8200B6493E /* MDMWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A31ED1A284A8200B6493E /* MDMWidget.m */; };
+		C46A31F11A284A9600B6493E /* MDMWidgetManage.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A31F01A284A9600B6493E /* MDMWidgetManage.m */; };
+		C485EEC21A2DC1E7004105AA /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C485EEC11A2DC1E7004105AA /* NSMutableArray+QueueAdditions.m */; };
+		C4A4AFB31A6E48E100DE09B2 /* MDMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A4AFB21A6E48E100DE09B2 /* MDMAppDelegate.m */; };
+		C4A4AFB41A6E4A3000DE09B2 /* MDMAppDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4A4AFB11A6E48E100DE09B2 /* MDMAppDelegate.h */; };
+		C4A4AFD41A6E5CE300DE09B2 /* MDMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A4AFD31A6E5CE300DE09B2 /* MDMNavigationController.m */; };
+		C4B993E31A64C51000FC11BD /* JSONKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C452384B1A42B62D00C66F9B /* JSONKit.h */; };
+		C4CE50191A382CEE00105CAD /* MDMWidgetOnePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CE50181A382CEE00105CAD /* MDMWidgetOnePlugin.m */; };
+		C4CE501C1A382D0600105CAD /* MDMWidgetPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CE501B1A382D0600105CAD /* MDMWidgetPlugin.m */; };
+		C4CE501F1A382D8E00105CAD /* MDMWindowPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CE501E1A382D8E00105CAD /* MDMWindowPlugin.m */; };
+		C4E4FEB71A284354002BCF35 /* MDMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E4FEB61A284354002BCF35 /* MDMEngine.m */; };
+		C4E695DF1A6F906200B811EE /* MDMUltil.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E695DE1A6F906200B811EE /* MDMUltil.m */; };
+		C4F13BD21A2C50BE00FAF560 /* MDMInvokedUrlComd.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F13BD11A2C50BE00FAF560 /* MDMInvokedUrlComd.m */; };
+		C4F13BD51A2C67B000FAF560 /* MDMPluginConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F13BD41A2C67B000FAF560 /* MDMPluginConfigParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4E4FEAF1A284353002BCF35 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C4A4AFB41A6E4A3000DE09B2 /* MDMAppDelegate.h in CopyFiles */,
+				C4B993E31A64C51000FC11BD /* JSONKit.h in CopyFiles */,
+				C44E860A1A284CF7009EC5EA /* MDMPlugin.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53D2CBE31B05936A00C2AE86 /* MDMStatisticsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMStatisticsPlugin.h; sourceTree = "<group>"; };
+		53D2CBE41B05936A00C2AE86 /* MDMStatisticsPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMStatisticsPlugin.m; sourceTree = "<group>"; };
+		608096D91BA7F45300AC2936 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		608096DA1BA7F45300AC2936 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		6083060B1BA6AFD4000F3CA7 /* httpBaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpBaseOperation.h; sourceTree = "<group>"; };
+		6083060C1BA6B037000F3CA7 /* httpReqOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpReqOperation.h; sourceTree = "<group>"; };
+		6083060D1BA6B037000F3CA7 /* httpReqOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = httpReqOperation.m; sourceTree = "<group>"; };
+		6083060F1BA6B1E6000F3CA7 /* httpReqObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpReqObject.h; sourceTree = "<group>"; };
+		608306101BA6B1E6000F3CA7 /* httpReqObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = httpReqObject.m; sourceTree = "<group>"; };
+		608306121BA6B4CA000F3CA7 /* httpReqQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpReqQueue.h; sourceTree = "<group>"; };
+		608306131BA6B4CA000F3CA7 /* httpReqQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = httpReqQueue.m; sourceTree = "<group>"; };
+		608306151BA6B86C000F3CA7 /* httpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpRequest.h; sourceTree = "<group>"; };
+		608306161BA6B86C000F3CA7 /* httpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = httpRequest.m; sourceTree = "<group>"; };
+		C408CB941A2845910012C7EF /* MDMWebViewJsBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMWebViewJsBridge.h; sourceTree = "<group>"; };
+		C408CB951A2845910012C7EF /* MDMWebViewJsBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMWebViewJsBridge.m; sourceTree = "<group>"; };
+		C408CB981A2846580012C7EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C408CB9A1A2846640012C7EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C408CB9C1A28466C0012C7EF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C408CB9E1A2846750012C7EF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C408CBA01A2846850012C7EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C44E86071A284CB3009EC5EA /* MDMPluginManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMPluginManage.h; sourceTree = "<group>"; };
+		C44E86081A284CB3009EC5EA /* MDMPluginManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMPluginManage.m; sourceTree = "<group>"; };
+		C44E860C1A284DEE009EC5EA /* MDMComdQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMComdQueue.h; sourceTree = "<group>"; };
+		C44E860D1A284DEE009EC5EA /* MDMComdQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMComdQueue.m; sourceTree = "<group>"; };
+		C452384B1A42B62D00C66F9B /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		C452384C1A42B62D00C66F9B /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		C452384E1A42D2D300C66F9B /* ModalAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalAlert.h; sourceTree = "<group>"; };
+		C452384F1A42D2D300C66F9B /* ModalAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalAlert.m; sourceTree = "<group>"; };
+		C46A31E21A2847EC00B6493E /* MDMWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMWebView.h; sourceTree = "<group>"; };
+		C46A31E31A2847EC00B6493E /* MDMWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMWebView.m; sourceTree = "<group>"; };
+		C46A31E51A28489A00B6493E /* MDMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMViewController.h; sourceTree = "<group>"; };
+		C46A31E61A28489A00B6493E /* MDMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMViewController.m; sourceTree = "<group>"; };
+		C46A31E81A28497800B6493E /* MDM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDM.h; sourceTree = "<group>"; };
+		C46A31E91A2849D800B6493E /* MDMPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMPlugin.h; sourceTree = "<group>"; };
+		C46A31EA1A2849D800B6493E /* MDMPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMPlugin.m; sourceTree = "<group>"; };
+		C46A31EC1A284A8200B6493E /* MDMWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMWidget.h; sourceTree = "<group>"; };
+		C46A31ED1A284A8200B6493E /* MDMWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMWidget.m; sourceTree = "<group>"; };
+		C46A31EF1A284A9600B6493E /* MDMWidgetManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMWidgetManage.h; sourceTree = "<group>"; };
+		C46A31F01A284A9600B6493E /* MDMWidgetManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMWidgetManage.m; sourceTree = "<group>"; };
+		C485EEC01A2DC1E7004105AA /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		C485EEC11A2DC1E7004105AA /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		C4A4AFB11A6E48E100DE09B2 /* MDMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMAppDelegate.h; sourceTree = "<group>"; };
+		C4A4AFB21A6E48E100DE09B2 /* MDMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMAppDelegate.m; sourceTree = "<group>"; };
+		C4A4AFD21A6E5CE300DE09B2 /* MDMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMNavigationController.h; sourceTree = "<group>"; };
+		C4A4AFD31A6E5CE300DE09B2 /* MDMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMNavigationController.m; sourceTree = "<group>"; };
+		C4CE50171A382CEE00105CAD /* MDMWidgetOnePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMWidgetOnePlugin.h; sourceTree = "<group>"; };
+		C4CE50181A382CEE00105CAD /* MDMWidgetOnePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMWidgetOnePlugin.m; sourceTree = "<group>"; };
+		C4CE501A1A382D0600105CAD /* MDMWidgetPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMWidgetPlugin.h; sourceTree = "<group>"; };
+		C4CE501B1A382D0600105CAD /* MDMWidgetPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMWidgetPlugin.m; sourceTree = "<group>"; };
+		C4CE501D1A382D8E00105CAD /* MDMWindowPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMWindowPlugin.h; sourceTree = "<group>"; };
+		C4CE501E1A382D8E00105CAD /* MDMWindowPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMWindowPlugin.m; sourceTree = "<group>"; };
+		C4E4FEB11A284354002BCF35 /* libMDMEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMDMEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E4FEB41A284354002BCF35 /* MDMEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMEngine.h; sourceTree = "<group>"; };
+		C4E4FEB61A284354002BCF35 /* MDMEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMEngine.m; sourceTree = "<group>"; };
+		C4E695DD1A6F906200B811EE /* MDMUltil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMUltil.h; sourceTree = "<group>"; };
+		C4E695DE1A6F906200B811EE /* MDMUltil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMUltil.m; sourceTree = "<group>"; };
+		C4F13BCF1A2C216600FAF560 /* MDMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMDefine.h; sourceTree = "<group>"; };
+		C4F13BD01A2C50BE00FAF560 /* MDMInvokedUrlComd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMInvokedUrlComd.h; sourceTree = "<group>"; };
+		C4F13BD11A2C50BE00FAF560 /* MDMInvokedUrlComd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMInvokedUrlComd.m; sourceTree = "<group>"; };
+		C4F13BD31A2C67B000FAF560 /* MDMPluginConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMPluginConfigParser.h; sourceTree = "<group>"; };
+		C4F13BD41A2C67B000FAF560 /* MDMPluginConfigParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMPluginConfigParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E4FEAE1A284353002BCF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C408CBA41A2847200012C7EF /* Foundation.framework in Frameworks */,
+				C408CBA51A2847200012C7EF /* OpenGLES.framework in Frameworks */,
+				C408CBA61A2847200012C7EF /* CoreFoundation.framework in Frameworks */,
+				C408CBA71A2847200012C7EF /* QuartzCore.framework in Frameworks */,
+				C408CBA81A2847200012C7EF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		608096D81BA7F45300AC2936 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				608096D91BA7F45300AC2936 /* SRWebSocket.h */,
+				608096DA1BA7F45300AC2936 /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		C408CB971A2846380012C7EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C408CBA01A2846850012C7EF /* Foundation.framework */,
+				C408CB9E1A2846750012C7EF /* OpenGLES.framework */,
+				C408CB9C1A28466C0012C7EF /* CoreFoundation.framework */,
+				C408CB9A1A2846640012C7EF /* QuartzCore.framework */,
+				C408CB981A2846580012C7EF /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C452384A1A42B62D00C66F9B /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				C452384B1A42B62D00C66F9B /* JSONKit.h */,
+				C452384C1A42B62D00C66F9B /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		C485EEBF1A2DC1E7004105AA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C452384A1A42B62D00C66F9B /* JSONKit */,
+				C452384E1A42D2D300C66F9B /* ModalAlert.h */,
+				C452384F1A42D2D300C66F9B /* ModalAlert.m */,
+				C485EEC01A2DC1E7004105AA /* NSMutableArray+QueueAdditions.h */,
+				C485EEC11A2DC1E7004105AA /* NSMutableArray+QueueAdditions.m */,
+				C4E695DD1A6F906200B811EE /* MDMUltil.h */,
+				C4E695DE1A6F906200B811EE /* MDMUltil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C4E4FEA81A284353002BCF35 = {
+			isa = PBXGroup;
+			children = (
+				C4E4FEB31A284354002BCF35 /* MDMEngine */,
+				C408CB971A2846380012C7EF /* Frameworks */,
+				C4E4FEB21A284354002BCF35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E4FEB21A284354002BCF35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4FEB11A284354002BCF35 /* libMDMEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E4FEB31A284354002BCF35 /* MDMEngine */ = {
+			isa = PBXGroup;
+			children = (
+				C4A4AFB11A6E48E100DE09B2 /* MDMAppDelegate.h */,
+				C4A4AFB21A6E48E100DE09B2 /* MDMAppDelegate.m */,
+				C4A4AFD21A6E5CE300DE09B2 /* MDMNavigationController.h */,
+				C4A4AFD31A6E5CE300DE09B2 /* MDMNavigationController.m */,
+				C46A31E51A28489A00B6493E /* MDMViewController.h */,
+				C46A31E61A28489A00B6493E /* MDMViewController.m */,
+				C46A31E81A28497800B6493E /* MDM.h */,
+				C4F13BCF1A2C216600FAF560 /* MDMDefine.h */,
+				C4E4FEB41A284354002BCF35 /* MDMEngine.h */,
+				C4E4FEB61A284354002BCF35 /* MDMEngine.m */,
+				C408CB941A2845910012C7EF /* MDMWebViewJsBridge.h */,
+				C408CB951A2845910012C7EF /* MDMWebViewJsBridge.m */,
+				C46A31E21A2847EC00B6493E /* MDMWebView.h */,
+				C46A31E31A2847EC00B6493E /* MDMWebView.m */,
+				C46A31E91A2849D800B6493E /* MDMPlugin.h */,
+				C46A31EA1A2849D800B6493E /* MDMPlugin.m */,
+				C44E86071A284CB3009EC5EA /* MDMPluginManage.h */,
+				C44E86081A284CB3009EC5EA /* MDMPluginManage.m */,
+				C4F13BD31A2C67B000FAF560 /* MDMPluginConfigParser.h */,
+				C4F13BD41A2C67B000FAF560 /* MDMPluginConfigParser.m */,
+				C46A31EC1A284A8200B6493E /* MDMWidget.h */,
+				C46A31ED1A284A8200B6493E /* MDMWidget.m */,
+				C46A31EF1A284A9600B6493E /* MDMWidgetManage.h */,
+				C46A31F01A284A9600B6493E /* MDMWidgetManage.m */,
+				C44E860C1A284DEE009EC5EA /* MDMComdQueue.h */,
+				C44E860D1A284DEE009EC5EA /* MDMComdQueue.m */,
+				C4F13BD01A2C50BE00FAF560 /* MDMInvokedUrlComd.h */,
+				C4F13BD11A2C50BE00FAF560 /* MDMInvokedUrlComd.m */,
+				C4F824D41A30170D007FEDF7 /* BasePlugin */,
+				C485EEBF1A2DC1E7004105AA /* Util */,
+			);
+			path = MDMEngine;
+			sourceTree = "<group>";
+		};
+		C4F824D41A30170D007FEDF7 /* BasePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE501D1A382D8E00105CAD /* MDMWindowPlugin.h */,
+				C4CE501E1A382D8E00105CAD /* MDMWindowPlugin.m */,
+				C4CE501A1A382D0600105CAD /* MDMWidgetPlugin.h */,
+				C4CE501B1A382D0600105CAD /* MDMWidgetPlugin.m */,
+				C4CE50171A382CEE00105CAD /* MDMWidgetOnePlugin.h */,
+				C4CE50181A382CEE00105CAD /* MDMWidgetOnePlugin.m */,
+				53D2CBE31B05936A00C2AE86 /* MDMStatisticsPlugin.h */,
+				53D2CBE41B05936A00C2AE86 /* MDMStatisticsPlugin.m */,
+				6083060B1BA6AFD4000F3CA7 /* httpBaseOperation.h */,
+				6083060C1BA6B037000F3CA7 /* httpReqOperation.h */,
+				6083060D1BA6B037000F3CA7 /* httpReqOperation.m */,
+				6083060F1BA6B1E6000F3CA7 /* httpReqObject.h */,
+				608306101BA6B1E6000F3CA7 /* httpReqObject.m */,
+				608306121BA6B4CA000F3CA7 /* httpReqQueue.h */,
+				608306131BA6B4CA000F3CA7 /* httpReqQueue.m */,
+				608306151BA6B86C000F3CA7 /* httpRequest.h */,
+				608306161BA6B86C000F3CA7 /* httpRequest.m */,
+				608096D81BA7F45300AC2936 /* SocketRocket */,
+			);
+			path = BasePlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E4FEB01A284353002BCF35 /* MDMEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E4FEC51A284354002BCF35 /* Build configuration list for PBXNativeTarget "MDMEngine" */;
+			buildPhases = (
+				C4E4FEAD1A284353002BCF35 /* Sources */,
+				C4E4FEAE1A284353002BCF35 /* Frameworks */,
+				C4E4FEAF1A284353002BCF35 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDMEngine;
+			productName = MDMEngine;
+			productReference = C4E4FEB11A284354002BCF35 /* libMDMEngine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E4FEA91A284353002BCF35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "李华林";
+				TargetAttributes = {
+					C4E4FEB01A284353002BCF35 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = C4E4FEAC1A284353002BCF35 /* Build configuration list for PBXProject "MDMEngine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4E4FEA81A284353002BCF35;
+			productRefGroup = C4E4FEB21A284354002BCF35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E4FEB01A284353002BCF35 /* MDMEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E4FEAD1A284353002BCF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CE50191A382CEE00105CAD /* MDMWidgetOnePlugin.m in Sources */,
+				C4E695DF1A6F906200B811EE /* MDMUltil.m in Sources */,
+				C408CB961A2845910012C7EF /* MDMWebViewJsBridge.m in Sources */,
+				C46A31F11A284A9600B6493E /* MDMWidgetManage.m in Sources */,
+				C4A4AFB31A6E48E100DE09B2 /* MDMAppDelegate.m in Sources */,
+				C44E860E1A284DEE009EC5EA /* MDMComdQueue.m in Sources */,
+				C4CE501F1A382D8E00105CAD /* MDMWindowPlugin.m in Sources */,
+				C45238501A42D2D300C66F9B /* ModalAlert.m in Sources */,
+				608306111BA6B1E6000F3CA7 /* httpReqObject.m in Sources */,
+				53D2CBE51B05936A00C2AE86 /* MDMStatisticsPlugin.m in Sources */,
+				C44E86091A284CB3009EC5EA /* MDMPluginManage.m in Sources */,
+				6083060E1BA6B037000F3CA7 /* httpReqOperation.m in Sources */,
+				C452384D1A42B62D00C66F9B /* JSONKit.m in Sources */,
+				C4F13BD21A2C50BE00FAF560 /* MDMInvokedUrlComd.m in Sources */,
+				608306141BA6B4CA000F3CA7 /* httpReqQueue.m in Sources */,
+				C4A4AFD41A6E5CE300DE09B2 /* MDMNavigationController.m in Sources */,
+				C4F13BD51A2C67B000FAF560 /* MDMPluginConfigParser.m in Sources */,
+				C46A31E41A2847EC00B6493E /* MDMWebView.m in Sources */,
+				C485EEC21A2DC1E7004105AA /* NSMutableArray+QueueAdditions.m in Sources */,
+				608306171BA6B86C000F3CA7 /* httpRequest.m in Sources */,
+				C4CE501C1A382D0600105CAD /* MDMWidgetPlugin.m in Sources */,
+				C46A31EE1A284A8200B6493E /* MDMWidget.m in Sources */,
+				C4E4FEB71A284354002BCF35 /* MDMEngine.m in Sources */,
+				C46A31EB1A2849D800B6493E /* MDMPlugin.m in Sources */,
+				608096DB1BA7F45300AC2936 /* SRWebSocket.m in Sources */,
+				C46A31E71A28489A00B6493E /* MDMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4E4FEC31A284354002BCF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4E4FEC41A284354002BCF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4E4FEC61A284354002BCF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "../MDMClientApp/MDMClientApp/MDMClientApp-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		C4E4FEC71A284354002BCF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "../MDMClientApp/MDMClientApp/MDMClientApp-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E4FEAC1A284353002BCF35 /* Build configuration list for PBXProject "MDMEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E4FEC31A284354002BCF35 /* Debug */,
+				C4E4FEC41A284354002BCF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E4FEC51A284354002BCF35 /* Build configuration list for PBXNativeTarget "MDMEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E4FEC61A284354002BCF35 /* Debug */,
+				C4E4FEC71A284354002BCF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E4FEA91A284353002BCF35 /* Project object */;
+}
