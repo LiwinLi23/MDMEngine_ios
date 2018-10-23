@@ -1,12 +1,3 @@
-//
-//  MDMWebView.m
-//  MDMEngine
-//
-//  Created by 李华林 on 14/11/28.
-//  Copyright (c) 2014年 李华林. All rights reserved.
-//
-//  MDM扩展版本的WEBVIEW,并定义了三分屏和浮动窗口的实现
-
 #import "MDMWebView.h"
 #import "MDMEngine.h"
 #import "MDMWebViewJsBridge.h"

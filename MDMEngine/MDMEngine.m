@@ -134,16 +134,12 @@ static MDMEngine *_sharedEngine = nil;
         }
         
         return NO;
-    }
-    else if ([url isFileURL])
-    {
+    } else if ([url isFileURL]) {
+        return YES;
+    } else if ([[url scheme] isEqualToString:@"https"] || [[url scheme] isEqualToString:@"http"]) {
         return YES;
     }
     else if ([[url scheme] isEqualToString:@"tel"])
-    {
-        return YES;
-    }
-    else if ([[url scheme] isEqualToString:@"http"])
     {
         return YES;
     }
@@ -158,14 +154,9 @@ static MDMEngine *_sharedEngine = nil;
     else
     {
         NSLog(@"AppDelegate::shouldStartLoadWithRequest: Received Unhandled URL %@", url);
-        
         if ([[UIApplication sharedApplication] canOpenURL:url])
         {
             [[UIApplication sharedApplication] openURL:url];
-        }
-        else
-        {
-            //[[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:CDVPluginHandleOpenURLNotification object:url]];
         }
         
         return NO;
